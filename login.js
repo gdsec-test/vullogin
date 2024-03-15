@@ -15,7 +15,7 @@ router.get('/login', function(req, res, next) {
 });
 
 
-// Do auth
+// I am running this one
 router.post('/login/auth', function(req, res) {
 
     var user = req.body.username;
