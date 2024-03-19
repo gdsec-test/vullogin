@@ -2,7 +2,7 @@ var log4js = require("log4js");
 var url = require("url");
 var express = require('express');
 var auth = require("../model/auth");
-var router = express.Router();
+var router = express.Router();  
 //toadd authentication   
 var logger = log4js.getLogger('vnode')
 
