@@ -3,7 +3,7 @@ var url = require("url");
 var express = require('express');
 var auth = require("../model/auth");
 var router = express.Router();
-//toadd authentication
+//toadd authentication   
 var logger = log4js.getLogger('vnode')
 
 // Login template
