@@ -4,7 +4,7 @@ var express = require('express');
 var auth = require("../model/auth"); 
 var router = express.Router();  
 //toadd authentication    
-var logger = log4js.getLogger('vnode')
+var logger = log4js.getLogger('vnode') 
 
 // Login template
 router.get('/login', function(req, res, next) {
